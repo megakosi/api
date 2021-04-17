@@ -62,7 +62,7 @@ $clients = [
         'api_hash' => '7188b0174fba74e15a2dc4d205791ab3',
         'api_id' => 3952070,
         'disabled' => false,
-        'user_can_add_to_channels' => false
+        'user_can_add_to_channels' => true
     ],
     
     "peter"=>
