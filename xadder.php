@@ -138,7 +138,7 @@ $clients = [
     
         'owner_name' => 'VICTOR MARTINS',
         'date_purchased' => 'Mar 19 2021  9:29PM',
-        'duration_in_days' => 60,
+        'duration_in_days' => 30,
         'country_code' => $defaults['country_code'],
         'api_hash' => "332ed89002ac958e9548900c19f3999b",
         'api_id' => 3984497,
@@ -152,7 +152,7 @@ $clients = [
     
         'owner_name' => 'Skana',
         'date_purchased' => 'Mar 30 2021 12:39PM',
-        'duration_in_days' => 60,
+        'duration_in_days' => 30,
         'country_code' => $defaults['country_code'],
         'api_hash' => "71901ed466a77bb6a51dba015c568fa1",
         'api_id' => 3775369,
@@ -167,7 +167,7 @@ $clients = [
     
         'owner_name' => 'China Man',
         'date_purchased' => 'Apr 04 2021 08:04AM',
-        'duration_in_days' => 60,
+        'duration_in_days' => 30,
         'country_code' => $defaults['country_code'],
         'api_hash' => "c79e2c3d99e8465ecdafbd889d627013",
         'api_id' => 3350554,
@@ -181,7 +181,7 @@ $clients = [
     
         'owner_name' => 'Austin',
         'date_purchased' => 'Apr 15 2021 10:42AM',
-        'duration_in_days' => 60,
+        'duration_in_days' => 30,
         'country_code' => $defaults['country_code'],
         'api_hash' => "6754e94404789c852c33eba62bc08fec",
         'api_id' => 4559238,
