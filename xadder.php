@@ -24,7 +24,8 @@ $settings = [
 
              
 $clients = [
-    "joseph"=>
+    
+     "joseph"=>
     [
     
         'owner_name' => 'Joseph Ibhafidon',
@@ -34,6 +35,20 @@ $clients = [
         'api_hash' => $defaults['api_hash'],
         'api_id' => $defaults['api_id'],
         'disabled' => true,
+        'user_can_add_to_channels' => false
+    ],
+    
+    
+    "sochima"=>
+    [
+    
+        'owner_name' => 'Sochima',
+        'date_purchased' => 'Apr 22 2021  1:33PM',
+        'duration_in_days' => 50000000000000,
+        'country_code' => $defaults['country_code'],
+        'api_hash' => 'e49f55661c56c931fc993ceed03671a8',
+        'api_id' => 4001523,
+        'disabled' => false,
         'user_can_add_to_channels' => false
     ],
     
