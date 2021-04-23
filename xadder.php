@@ -74,8 +74,8 @@ $clients = [
         'date_purchased' => 'Feb 24 2021  1:33PM',
         'duration_in_days' => 3000000000,
         'country_code' => $defaults['country_code'],
-        'api_hash' => '7188b0174fba74e15a2dc4d205791ab3',
-        'api_id' => 3952070,
+        'api_hash' => $defaults['api_hash'],
+        'api_id' => $defaults['api_id'],
         'disabled' => false,
         'user_can_add_to_channels' => true
     ],
@@ -89,7 +89,7 @@ $clients = [
         'country_code' => $defaults['country_code'],
         'api_hash' => '7188b0174fba74e15a2dc4d205791ab3',
         'api_id' => 3952070,
-        'disabled' => false,
+        'disabled' => true,
         'user_can_add_to_channels' => false
     ],
     
