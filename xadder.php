@@ -78,7 +78,7 @@ $clients = [
         'api_hash' => $defaults['api_hash'],
         'api_id' => $defaults['api_id'],
         'disabled' => false,
-        'user_can_add_to_channels' => true
+        'user_can_add_to_channels' => false
     ],
     
     "peter"=>
