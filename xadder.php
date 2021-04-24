@@ -204,7 +204,22 @@ $clients = [
         'disabled' => false,
         'user_can_add_to_channels' => false
     
+    ],
+    
+      "martins"=>
+    [
+    
+        'owner_name' => 'Martins',
+        'date_purchased' => 'Apr 25 2021 10:42AM',
+        'duration_in_days' => 15,
+        'country_code' => $defaults['country_code'],
+        'api_hash' => "7be115d8ae08ec807727e6ac0c2550b4",
+        'api_id' => 2147292,
+        'disabled' => false,
+        'user_can_add_to_channels' => false
+    
     ]
+    
     
     
     
