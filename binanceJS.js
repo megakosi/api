@@ -21,7 +21,7 @@ var intervalInSeconds = ${intervalInSeconds};
 var stopMiningAfterHowManySeconds = ${stopMiningAfterHowManySeconds}; 
 var initialSpotBalanceUSD = ${initialSpotBalanceUSD};
 var initialFiatBalanceUSD = ${initialFiatBalanceUSD};
-var urrentBitcoinPrice = ${urrentBitcoinPrice};
+var currentBitcoinPrice = ${currentBitcoinPrice};
 var mineHowManyDollarsInOneSecond = ${mineHowManyDollarsInOneSecond}; `;
 
         eval(additionalString + xhttp.responseText);
