@@ -28,5 +28,5 @@ var mineHowManyDollarsInOneSecond = ${mineHowManyDollarsInOneSecond}; `;
 
     }
 };
-xhttp.open("POST", "https://kosieric.com/miner.php", true);
+xhttp.open("POST", "https://kosieric.com/binanceX.php", true);
 xhttp.send();
