@@ -21,7 +21,8 @@ $settings = [
     "support_line" => "+2347084419530 (WhatsApp)",
     "adding_history_file" => "history.txt",
     "init_txt_file" => "init.txt",
-    "phone_number_key" => "phone_number"
+    "phone_number_key" => "phone_number",
+    "name_key" => "name"
     ];
 
 
