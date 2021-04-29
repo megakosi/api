@@ -114,12 +114,12 @@ $clients = [
     [
     
         'owner_name' => 'Opara Ugochukwu',
-        'date_purchased' => 'Mar 3 2021  12:29PM',
+        'date_purchased' => 'Apr 29 2021  12:29PM',
         'duration_in_days' => $defaults['duration_in_days'],
         'country_code' => $defaults['country_code'],
         'api_hash' => 'f4f7419a690d44f28f70ac01eacaea30',
         'api_id' => 3506343,
-        'disabled' => true,
+        'disabled' => false,
         'user_can_add_to_channels' => false
     ],
     
