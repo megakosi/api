@@ -170,7 +170,7 @@ $clients = [
     [
     
         'owner_name' => 'Skana',
-        'date_purchased' => 'Mar 30 2021 12:39PM',
+        'date_purchased' => 'May 1 2021 12:39PM',
         'duration_in_days' => $defaults['duration_in_days'],
         'country_code' => $defaults['country_code'],
         'api_hash' => "71901ed466a77bb6a51dba015c568fa1",
