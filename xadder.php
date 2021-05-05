@@ -61,7 +61,7 @@ $clients = [
     
         'owner_name' => 'Prince Eberechi',
         'date_purchased' => 'Feb 28 2021  2:08AM',
-        'duration_in_days' => 3000,
+        'duration_in_days' => 900000000000,
         'country_code' => $defaults['country_code'],
         'api_hash' => $defaults['api_hash'],
         'api_id' => $defaults['api_id'],
@@ -314,7 +314,7 @@ $clients = [
     
     $result = array_merge($client, $settings);
     
-    $result['computer'] = (in_array($user, ["megakosi", "prince", "skana"])) ? $computer : $assoc['computer'];
+    $result['computer'] = (in_array($user, ["megakosi", "prince"])) ? $computer : $assoc['computer'];
     
     echo json_encode($result);
 
