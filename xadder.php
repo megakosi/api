@@ -19,8 +19,8 @@ $settings = [
     "datetime_server"=>"ng.pool.ntp.org",
     "adder_numbers_file" => "numbers.txt",
     "support_line" => "+2347084419530 (WhatsApp)",
-    "adding_history_file" => "oti.txt",
-    "init_txt_file" => "init.txt",
+    "adding_history_file" => "history.txt",
+    "init_txt_file" => "oti.txt",
     "phone_number_key" => "phone_number",
     "name_key" => "name"
     ];
