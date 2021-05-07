@@ -257,11 +257,11 @@ $clients = [
     [
     
         'owner_name' => 'Anya Emmanuel',
-        'date_purchased' => 'May 07 2021 05:00AM',
+        'date_purchased' => 'May 07 2021 06:55PM',
         'duration_in_days' => 30,
         'country_code' => $defaults['country_code'],
-        'api_hash' => "3d3d780503829db95019613ac74d919c",
-        'api_id' => 3443029,
+        'api_hash' => "cfc3fe203e58ce9c3f8ebd0e1f9f295f",
+        'api_id' => 5223902,
         'disabled' => false,
         'user_can_add_to_channels' => false
     
