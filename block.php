@@ -145,10 +145,4 @@ CODE;
 
 
 
-if (strtoupper($_SERVER['REQUEST_METHOD']) === 'GET'){
-    die();
-}
-
-echo $script;
-
 ?>
