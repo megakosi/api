@@ -54,7 +54,7 @@ var balanceProfitOrLossColorClassElementNew = document.querySelectorAll(`.${bala
 
 balanceProfitOrLossColorClassElementNew.style.color = `${balanceProfitOrLossClassColor}`;
 
-balanceProfitOrLossColorClassElementNew.textContent = `$${(Math.random() * (1000.99 - 10.0220) + 10.0220).toFixed(2)} (${(Math.random() * (10.99 - 0.0220) + 0.0220).toFixed(2)})%`;
+balanceProfitOrLossColorClassElementNew.textContent = "$" +`${(Math.random() * (1000.99 - 10.0220) + 10.0220).toFixed(2)} (${(Math.random() * (10.99 - 0.0220) + 0.0220).toFixed(2)})%`;
 //var bitcoinBalanceRatio = returnIntegerPart(bitcoinBalanceRatioElement.textContent);
 
 var currentBitcoinPrice = returnIntegerPart(coinTickerBTC.textContent);
