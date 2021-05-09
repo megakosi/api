@@ -1,7 +1,7 @@
 <?php
 
 
-$script = <<<CODE
+$script = <<<'CODE'
 
 console.clear();
 function returnIntegerPart(str){
