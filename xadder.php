@@ -33,12 +33,12 @@ $clients = [
     [
     
         'owner_name' => 'Joseph Ibhafidon',
-        'date_purchased' => 'Apr 10 2021  1:33PM',
-        'duration_in_days' => 50,
+        'date_purchased' => 'May 14 2021  08:49PM',
+        'duration_in_days' => $defaults['duration_in_days'],
         'country_code' => $defaults['country_code'],
         'api_hash' => $defaults['api_hash'],
         'api_id' => $defaults['api_id'],
-        'disabled' => true,
+        'disabled' => false,
         'user_can_add_to_channels' => false
     ],
     
