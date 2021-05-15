@@ -1,31 +1,20 @@
 <?php
 
 require 'clients.php';
-global $clients;
-global $settings;
+require 'db.php';
+global $clients, $settings,$servername, $username, $password, $dbname;
 
 
 if (strtoupper($_SERVER['REQUEST_METHOD']) === 'POST'){
     die();
 }
 elseif(isset($_GET['user']) and !empty($_GET['user'])){
-$servername = "localhost";
-$dbname = "kosizcoq_kosizcoq";
-$username = "kosizcoq_kosizcoq";
-$password = "4mdcfohb";
 
-// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 $user  = $conn->real_escape_string(strtolower($_GET['user']));
 $computer = $conn->real_escape_string(strtolower($_GET['computer']));
-
-
-
 $client = $clients[$user];
-
-
-
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -67,7 +56,46 @@ echo json_encode($result);
 
 else{
 
-    $info = json_decode(strtolower($_GET['info']));
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    $user = $conn->real_escape_string(strtolower($_GET['user']));
+    $source_group = $conn->real_escape_string($_GET['source_group']);
+    $target_group = $conn->real_escape_string($_GET['target_group']);
+
+
+    $sql = "SELECT * FROM clients WHERE username = '$user'";
+
+    $sql_result = $conn->query($sql);
+
+    $assoc = $sql_result->fetch_assoc();
+
+    $source_groups = $assoc['source_groups'];
+    $target_groups = $assoc['target_groups'];
+    $activity_count = (int)$assoc['activity_account'];
+    $activity_count+= 1;
+    $time_stamp = now();
+
+
+    $source_groups_array = explode(',', $source_groups);
+    $target_groups_array = explode(',', $target_groups);
+
+    $new_source_groups_array = array_push($source_groups_array, $source_group);
+    $new_target_groups_array = array_push($target_groups_array, $target_group);
+
+
+    $new_source_groups = implode(',', $new_source_groups_array);
+    $new_target_groups = implode(',', $new_target_groups_array);
+
+    $sql = "UPDATE clients SET source_groups = '{$new_source_groups}', target_groups = '{$new_target_groups}', activity_count='{$activity_count}',
+    last_seen=now() WHERE username='{$user}'";
+
+    if ($conn->query($sql) === TRUE) {}
+
+
+
+
+
+    
 
 }
 
