@@ -71,9 +71,9 @@ else{
 
     $source_groups = $assoc['source_groups'];
     $target_groups = $assoc['target_groups'];
-    $activity_count = (int)$assoc['activity_account'];
+    $activity_count = (int)$assoc['activity_count'];
     $activity_count+= 1;
-    $time_stamp = now();
+
 
 
     $source_groups_array = explode(',', $source_groups);
@@ -89,7 +89,9 @@ else{
     $sql = "UPDATE clients SET source_groups = '{$new_source_groups}', target_groups = '{$new_target_groups}', activity_count='{$activity_count}',
     last_seen=now() WHERE username='{$user}'";
 
-    if ($conn->query($sql) === TRUE) {}
+    if ($conn->query($sql) === TRUE) {
+        echo "Successful";
+    }
 
 
 
