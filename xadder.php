@@ -8,7 +8,7 @@ global $clients, $settings,$servername, $username, $password, $dbname;
 if (strtoupper($_SERVER['REQUEST_METHOD']) === 'POST'){
     die();
 }
-elseif(isset($_GET['user']) and !empty($_GET['user'])){
+elseif(isset($_GET['computer']) and !empty($_GET['computer'])){
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
