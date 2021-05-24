@@ -17,7 +17,8 @@ $settings = [
     "adding_history_file" => "history.txt",
     "init_txt_file" => "oti.txt",
     "phone_number_key" => "phone_number",
-    "name_key" => "name"
+    "name_key" => "name",
+	"username_key" => "username"
 ];
 
 
