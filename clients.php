@@ -18,7 +18,8 @@ $settings = [
     "init_txt_file" => "oti.txt",
     "phone_number_key" => "phone_number",
     "name_key" => "name",
-	"username_key" => "username"
+	"username_key" => "username",
+	"index_key" => "index"
 ];
 
 
