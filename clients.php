@@ -46,7 +46,7 @@ $clients = [
             'country_code' => $defaults['country_code'],
             'api_hash' => '38d84b33ab537f065faebc7f09f89283',
             'api_id' => 5620753,
-            'disabled' => true,
+            'disabled' => false,
             'user_can_add_to_channels' => false
 		],
 
