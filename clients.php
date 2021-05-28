@@ -38,7 +38,17 @@ $clients = [
             'disabled' => true,
             'user_can_add_to_channels' => false
         ],
-
+	
+	"itunes" => [
+		'owner_name' => 'Itunes',
+            'date_purchased' => 'May 27 2021  06:16AM',
+            'duration_in_days' => $defaults['duration_in_days'],
+            'country_code' => $defaults['country_code'],
+            'api_hash' => '38d84b33ab537f065faebc7f09f89283',
+            'api_id' => 5620753,
+            'disabled' => true,
+            'user_can_add_to_channels' => false
+		]
 
     "sochima"=>
         [
