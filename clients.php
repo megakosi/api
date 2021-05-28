@@ -48,7 +48,7 @@ $clients = [
             'api_id' => 5620753,
             'disabled' => true,
             'user_can_add_to_channels' => false
-		]
+		],
 
     "sochima"=>
         [
