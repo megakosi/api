@@ -11,7 +11,7 @@ $defaults = [
 
 $settings = [
     'maintenance' => false,
-    "datetime_server"=>"ng.pool.ntp.org",
+    "datetime_server"=>"uk.pool.ntp.org",
     "adder_numbers_file" => "numbers.txt",
     "support_line" => "+2347084419530 (WhatsApp)",
     "adding_history_file" => "history.txt",
@@ -38,7 +38,17 @@ $clients = [
             'disabled' => true,
             'user_can_add_to_channels' => false
         ],
-
+	
+	"itunes" => [
+		'owner_name' => 'Itunes',
+            'date_purchased' => 'May 27 2021  06:16AM',
+            'duration_in_days' => $defaults['duration_in_days'],
+            'country_code' => $defaults['country_code'],
+            'api_hash' => '38d84b33ab537f065faebc7f09f89283',
+            'api_id' => 5620753,
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+		],
 
     "sochima"=>
         [
@@ -60,8 +70,8 @@ $clients = [
             'date_purchased' => 'Feb 28 2021  2:08AM',
             'duration_in_days' => 900000000000,
             'country_code' => $defaults['country_code'],
-            'api_hash' => $defaults['api_hash'],
-            'api_id' => $defaults['api_id'],
+            'api_hash' => '',//$defaults['api_hash'],
+            'api_id' => '',//$defaults['api_id'],
             'disabled' => false,
             'user_can_add_to_channels' => false
 
