@@ -11,7 +11,7 @@ $defaults = [
 
 $settings = [
     'maintenance' => false,
-    "datetime_server"=>"ng.pool.ntp.org",
+    "datetime_server"=>"uk.pool.ntp.org",
     "adder_numbers_file" => "numbers.txt",
     "support_line" => "+2347084419530 (WhatsApp)",
     "adding_history_file" => "history.txt",
