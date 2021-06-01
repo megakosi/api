@@ -163,7 +163,7 @@ $clients = [
         [
 
             'owner_name' => 'VICTOR MARTINS',
-            'date_purchased' => 'June 1 2021  9:29PM',
+            'date_purchased' => 'Jun 1 2021  9:29PM',
             'duration_in_days' => 30,
             'country_code' => $defaults['country_code'],
             'api_hash' => "332ed89002ac958e9548900c19f3999b",
