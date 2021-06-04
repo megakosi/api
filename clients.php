@@ -3,8 +3,8 @@
 $defaults = [
 
     "api_hash" =>
-        "a0868f60474d9b119b8c5e42d8a7c682",
-    "api_id"=> "2688055",
+        "0e7814f6d810edda751e89bbecae16d0",
+    "api_id"=> "5420215",
     "country_code" => "234",
     "duration_in_days" => 30
 ];
