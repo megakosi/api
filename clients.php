@@ -19,7 +19,9 @@ $settings = [
     "phone_number_key" => "phone_number",
     "name_key" => "name",
 	"username_key" => "username",
-	"index_key" => "index"
+	"index_key" => "index",
+	"spam_bot_username" => "SpamBot",
+	"spam_bot_free_message" => "bird"
 ];
 
 
