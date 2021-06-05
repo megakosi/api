@@ -267,7 +267,7 @@ $clients = [
 
             'owner_name' => 'Anya Emmanuel',
             'date_purchased' => 'May 07 2021 06:55PM',
-            'duration_in_days' => 30,
+            'duration_in_days' => 50,
             'country_code' => $defaults['country_code'],
             'api_hash' => "cfc3fe203e58ce9c3f8ebd0e1f9f295f",
             'api_id' => 5223902,
