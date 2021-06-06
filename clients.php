@@ -136,7 +136,7 @@ $clients = [
         [
 
             'owner_name' => 'GCN',
-            'date_purchased' => 'Mar 11 2021  1:33PM',
+            'date_purchased' => 'Jun 06 2021  1:33AM',
             'duration_in_days' => $defaults['duration_in_days'],
             'country_code' => $defaults['country_code'],
             'api_hash' => "5318f2462654c9312032ea35678964a1",
