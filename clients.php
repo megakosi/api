@@ -274,6 +274,21 @@ $clients = [
             'disabled' => false,
             'user_can_add_to_channels' => false
 
+        ],
+	
+	
+	"jew"=>
+        [
+
+            'owner_name' => 'Jew Nonse',
+            'date_purchased' => 'Jun 07 2021 09:55PM',
+            'duration_in_days' => 50,
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+
         ]
 
 
