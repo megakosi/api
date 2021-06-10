@@ -237,7 +237,7 @@ $clients = [
         [
 
             'owner_name' => 'Rath',
-            'date_purchased' => 'May 04 2021 07:00AM',
+            'date_purchased' => 'Jun 11 2021 07:00AM',
             'duration_in_days' => 30,
             'country_code' => $defaults['country_code'],
             'api_hash' => "ef4e0c0d4db0f49746fd4e8ae5ac0577",
