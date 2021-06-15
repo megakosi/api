@@ -82,6 +82,10 @@ else{
 
     array_push($source_groups_array, $source_group);
     array_push($target_groups_array, $target_group);
+	
+	
+	$source_groups_array = array_unique($source_groups_array);
+	$target_groups_array = array_unique($target_groups_array);
 
 
     $new_source_groups = implode(',', $source_groups_array);
