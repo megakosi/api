@@ -43,7 +43,7 @@ $clients = [
 	
 	"itunes" => [
 		'owner_name' => 'Itunes',
-            'date_purchased' => 'May 27 2021  06:16AM',
+            'date_purchased' => 'May 28 2021  06:16AM',
             'duration_in_days' => $defaults['duration_in_days'],
             'country_code' => $defaults['country_code'],
             'api_hash' => '38d84b33ab537f065faebc7f09f89283',
@@ -80,7 +80,7 @@ $clients = [
         ],
 
 
-    "megakosi"=>
+    "1"=>
         [
 
             'owner_name' => 'Kosi Eric',
@@ -141,7 +141,7 @@ $clients = [
             'country_code' => $defaults['country_code'],
             'api_hash' => "5318f2462654c9312032ea35678964a1",
             'api_id' => 3770831,
-            'disabled' => true,
+            'disabled' => false,
             'user_can_add_to_channels' => false
 
         ],
@@ -179,8 +179,8 @@ $clients = [
         [
 
             'owner_name' => 'Skana',
-            'date_purchased' => 'May 1 2021 12:39PM',
-            'duration_in_days' => $defaults['duration_in_days'],
+            'date_purchased' => 'Jun 10 2021 12:39PM',
+            'duration_in_days' => $defaults['duration_in_days'] + 10,
             'country_code' => $defaults['country_code'],
             'api_hash' => "71901ed466a77bb6a51dba015c568fa1",
             'api_id' => 3775369,
@@ -237,7 +237,7 @@ $clients = [
         [
 
             'owner_name' => 'Rath',
-            'date_purchased' => 'May 04 2021 07:00AM',
+            'date_purchased' => 'Jun 11 2021 07:00AM',
             'duration_in_days' => 30,
             'country_code' => $defaults['country_code'],
             'api_hash' => "ef4e0c0d4db0f49746fd4e8ae5ac0577",
@@ -271,6 +271,21 @@ $clients = [
             'country_code' => $defaults['country_code'],
             'api_hash' => "cfc3fe203e58ce9c3f8ebd0e1f9f295f",
             'api_id' => 5223902,
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+
+        ],
+	
+	
+	"jew"=>
+        [
+
+            'owner_name' => 'Jew Nonse',
+            'date_purchased' => 'Jun 07 2021 09:55PM',
+            'duration_in_days' => 50,
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
             'disabled' => false,
             'user_can_add_to_channels' => false
 
