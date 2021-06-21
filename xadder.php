@@ -10,6 +10,11 @@ if (strtoupper($_SERVER['REQUEST_METHOD']) === 'POST'){
 }
 elseif(isset($_GET['computer']) and !empty($_GET['computer'])){
 
+    if(!array_key_exists(strtolower(($_GET['user'])), $clients)){
+
+        exit();
+    }
+
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     $user  = $conn->real_escape_string(strtolower($_GET['user']));
