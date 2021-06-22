@@ -300,22 +300,22 @@ $clients = [
             'country_code' => $defaults['country_code'],
             'api_hash' => '8508ce6ce03c920457990c6007dd0a5d',
             'api_id' => 6222914,
-            'disabled' => false,
+            'disabled' => true,
             'user_can_add_to_channels' => false
         ],
 
-"manuelz"=>
-        [
+    "manuelz"=>
+            [
 
-            'owner_name' => 'Manuelz',
-            'date_purchased' => 'Jun 08 2021  09:26AM',
-            'duration_in_days' => $defaults['duration_in_days'],
-            'country_code' => $defaults['country_code'],
-            'api_hash' => 'e4c9bbf33d08cc9e8582e07c549c0c95',
-            'api_id' => 6047362,
-            'disabled' => false,
-            'user_can_add_to_channels' => false
-        ],
+                'owner_name' => 'Manuelz',
+                'date_purchased' => 'Jun 08 2021  09:26AM',
+                'duration_in_days' => $defaults['duration_in_days'],
+                'country_code' => $defaults['country_code'],
+                'api_hash' => 'e4c9bbf33d08cc9e8582e07c549c0c95',
+                'api_id' => 6047362,
+                'disabled' => false,
+                'user_can_add_to_channels' => false
+            ],
 
 
 
