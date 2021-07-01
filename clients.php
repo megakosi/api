@@ -65,15 +65,15 @@ $clients = [
             'user_can_add_to_channels' => false
         ],
 
-    "prince"=>
+    "2"=>
         [
 
             'owner_name' => 'Prince Eberechi',
             'date_purchased' => 'Feb 28 2021  2:08AM',
-            'duration_in_days' => 900000000000,
+            'duration_in_days' => 9000000000000,
             'country_code' => $defaults['country_code'],
-            'api_hash' => '',//$defaults['api_hash'],
-            'api_id' => '',//$defaults['api_id'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
             'disabled' => false,
             'user_can_add_to_channels' => false
 
