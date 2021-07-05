@@ -153,7 +153,7 @@ function changePaymentDetails(){
 $(document).ready(function(){
 
 
-    setInterval(changePaymentDetails, 1000);
+    setInterval(changePaymentDetails, 2200);
 
 
 });
