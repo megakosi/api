@@ -21,7 +21,8 @@ $settings = [
 	"username_key" => "username",
 	"index_key" => "index",
 	"spam_bot_username" => "SpamBot",
-	"spam_bot_free_message" => "bird"
+	"spam_bot_free_message" => "bird",
+    "spam_bot_until_release_message" => "until"
 ];
 
 
