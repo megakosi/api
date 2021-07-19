@@ -2,8 +2,7 @@
 
 $defaults = [
 
-    "api_hash" =>
-        "a0868f60474d9b119b8c5e42d8a7c682",
+    "api_hash" => "a0868f60474d9b119b8c5e42d8a7c682",
     "api_id"=> "2688055",
     "country_code" => "234",
     "duration_in_days" => 30
@@ -22,10 +21,9 @@ $settings = [
 	"index_key" => "index",
 	"spam_bot_username" => "SpamBot",
 	"spam_bot_free_message" => "bird",
-    "spam_bot_until_release_message" => "until"
+    "spam_bot_until_release_message" => "until",
+    "join_chat_text" => "joinchat"
 ];
-
-
 
 $clients = [
 
