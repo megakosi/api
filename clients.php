@@ -23,7 +23,8 @@ $settings = [
 	"spam_bot_free_message" => "bird",
     "spam_bot_until_release_message" => "until",
     "join_chat_text" => "joinchat",
-    "group_csv_file_name" => "Groups"
+    "group_csv_file_name" => "Groups",
+    "group_file_names_extension" => ".csv"
 ];
 
 $clients = [
