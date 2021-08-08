@@ -125,7 +125,7 @@ $clients = [
 
             'owner_name' => 'Opara Ugochukwu',
             'date_purchased' => 'Jul 04 2021  12:29PM',
-            'duration_in_days' => $defaults['duration_in_days'],
+            'duration_in_days' => 10000000000000000000,
             'country_code' => $defaults['country_code'],
             'api_hash' => 'f4f7419a690d44f28f70ac01eacaea30',
             'api_id' => 3506343,
