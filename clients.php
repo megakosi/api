@@ -176,6 +176,20 @@ $clients = [
 
         ],
 
+	
+    "leo"=>
+        [
+
+            'owner_name' => 'Leonard',
+            'date_purchased' => 'Aug 16 2021  10:49PM',
+            'duration_in_days' => $defaults['duration_in_days'],
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+
+        ],
     "skana"=>
         [
 
