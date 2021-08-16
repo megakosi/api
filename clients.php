@@ -184,7 +184,7 @@ $clients = [
             'duration_in_days' => $defaults['duration_in_days'] + 10,
             'country_code' => $defaults['country_code'],
             'api_hash' => "71901ed466a77bb6a51dba015c568fa1",
-            'api_id' =>  '',//3775369,
+            'api_id' =>  3775369,
             'disabled' => false,
             'user_can_add_to_channels' => false
 
