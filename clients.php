@@ -99,7 +99,7 @@ $clients = [
 
             'owner_name' => 'Afolabi Peter',
             'date_purchased' => 'Jun 19 2021 09:10PM',
-            'duration_in_days' => 60,
+            'duration_in_days' => 1000000000000,
             'country_code' => $defaults['country_code'],
             'api_hash' => '7188b0174fba74e15a2dc4d205791ab3',
             'api_id' => 3952070,
