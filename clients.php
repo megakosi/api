@@ -94,6 +94,20 @@ $clients = [
             'user_can_add_to_channels' => false
         ],
 
+
+    "mike"=>
+        [
+
+            'owner_name' => 'Kosi Eric',
+            'date_purchased' => 'Aug 22 2021  8:50PM',
+            'duration_in_days' => $defaults['duration_in_days'],
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+        ],
+
     "peter"=>
         [
 
