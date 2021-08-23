@@ -291,6 +291,20 @@ $clients = [
 
         ],
 
+    "ahm"=>
+        [
+
+            'owner_name' => 'Ahm',
+            'date_purchased' => 'Aug 23 2021 01:20PM',
+            'duration_in_days' => 90,
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+
+        ],
+
     "emmanuel"=>
         [
 
