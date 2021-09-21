@@ -291,6 +291,20 @@ $clients = [
 
         ],
 
+    "peters2"=>
+        [
+
+            'owner_name' => 'Peters',
+            'date_purchased' => 'Aug 23 2021 01:20PM',
+            'duration_in_days' => 90,
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+
+        ],
+
     "ahm"=>
         [
 
@@ -332,19 +346,6 @@ $clients = [
             'disabled' => false,
             'user_can_add_to_channels' => false
 
-        ],
-	
-	"destiny"=>
-        [
-
-            'owner_name' => 'Gboda',
-            'date_purchased' => 'Jun 06 2021  09:26AM',
-            'duration_in_days' => $defaults['duration_in_days'],
-            'country_code' => $defaults['country_code'],
-            'api_hash' => '8508ce6ce03c920457990c6007dd0a5d',
-            'api_id' => 6222914,
-            'disabled' => true,
-            'user_can_add_to_channels' => false
         ],
 
     "manuelz"=>
@@ -396,7 +397,21 @@ $clients = [
             'api_id' => $defaults['api_id'],
             'disabled' => false,
             'user_can_add_to_channels' => false
+        ],
+
+    "destiny"=>
+        [
+
+            'owner_name' => 'Destiny',
+            'date_purchased' => 'Sept 21 2021  02:35AM',
+            'duration_in_days' => $defaults['duration_in_days'],
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
+            'disabled' => false,
+            'user_can_add_to_channels' => false
         ]
+
 
 
 
