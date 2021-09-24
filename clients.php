@@ -85,8 +85,8 @@ $clients = [
         [
 
             'owner_name' => 'Kosi Eric',
-            'date_purchased' => 'Feb 24 2021  1:33PM',
-            'duration_in_days' => 3000000000,
+            'date_purchased' => 'Sept 24 2021  12:07PM',
+            'duration_in_days' => 30,
             'country_code' => $defaults['country_code'],
             'api_hash' => $defaults['api_hash'],
             'api_id' => $defaults['api_id'],
@@ -98,7 +98,7 @@ $clients = [
     "mike"=>
         [
 
-            'owner_name' => 'Kosi Eric',
+            'owner_name' => 'Mike',
             'date_purchased' => 'Aug 22 2021  8:50PM',
             'duration_in_days' => $defaults['duration_in_days'],
             'country_code' => $defaults['country_code'],
