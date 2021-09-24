@@ -70,7 +70,7 @@ $clients = [
         [
 
             'owner_name' => 'Prince Eberechi',
-            'date_purchased' => 'Feb 28 2021  2:08AM',
+            'date_purchased' => 'Feb 28 2021 2:08AM',
             'duration_in_days' => 9000000000000,
             'country_code' => $defaults['country_code'],
             'api_hash' => $defaults['api_hash'],
@@ -85,7 +85,7 @@ $clients = [
         [
 
             'owner_name' => 'Kosi Eric',
-            'date_purchased' => 'Sept 24 2021  12:07PM',
+            'date_purchased' => 'Sep 24 2021 12:07PM',
             'duration_in_days' => 30,
             'country_code' => $defaults['country_code'],
             'api_hash' => $defaults['api_hash'],
