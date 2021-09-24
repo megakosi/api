@@ -194,8 +194,8 @@ $clients = [
         [
 
             'owner_name' => 'VICTOR MARTINS',
-            'date_purchased' => 'Jun 1 2021  9:29PM',
-            'duration_in_days' => 30,
+            'date_purchased' => 'Sep 24 2021  11:39PM',
+            'duration_in_days' => $defaults['duration_in_days'],
             'country_code' => $defaults['country_code'],
             'api_hash' => "332ed89002ac958e9548900c19f3999b",
             'api_id' => 3984497,
