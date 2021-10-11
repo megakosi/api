@@ -2,10 +2,10 @@
 
 $defaults = [
 
-    "api_hash" => "a0868f60474d9b119b8c5e42d8a7c682",
-    "api_id"=> "2688055",
+    "api_hash" => "0071d383e5bacb7bf2c4ae74e98e8b8f",
+    "api_id"=> "8817009",
     "country_code" => "234",
-    "duration_in_days" => 30
+    "duration_in_days" => 30000
 ];
 
 $settings = [
@@ -141,8 +141,8 @@ $clients = [
             'date_purchased' => 'Jun 19 2021 09:10PM',
             'duration_in_days' => 1000000000000,
             'country_code' => $defaults['country_code'],
-            'api_hash' => '7188b0174fba74e15a2dc4d205791ab3',
-            'api_id' => 3952070,
+            'api_hash' => '6dbdb1ef166e36bacc1a73931aaad920',
+            'api_id' => 8209821,
             'disabled' => false,
             'user_can_add_to_channels' => false
         ],
