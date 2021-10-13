@@ -272,6 +272,19 @@ $clients = [
             'user_can_add_to_channels' => false
 
         ],
+		
+		"101" => [
+		
+		'owner_name' => 'Victor',
+            'date_purchased' => 'Oct 13 2021 10:42AM',
+            'duration_in_days' => $defaults['duration_in_days'],
+            'country_code' => $defaults['country_code'],
+            'api_hash' => "59a4e4becdfa4e40f7fbc33a2edb498e",
+            'api_id' => 8581462,
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+		
+		],
 
     "martins"=>
         [
@@ -349,11 +362,11 @@ $clients = [
         [
 
             'owner_name' => 'Anya Emmanuel',
-            'date_purchased' => 'May 07 2021 06:55PM',
-            'duration_in_days' => 50,
+            'date_purchased' => 'Oct 13 2021 06:55PM',
+            'duration_in_days' => $defaults['duration_in_days'],
             'country_code' => $defaults['country_code'],
-            'api_hash' => "cfc3fe203e58ce9c3f8ebd0e1f9f295f",
-            'api_id' => 5223902,
+            'api_hash' => "b7d7ff31095b958104b45f3196cccc5b",
+            'api_id' => 7764282,
             'disabled' => false,
             'user_can_add_to_channels' => false
 
