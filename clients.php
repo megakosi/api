@@ -97,16 +97,16 @@ $clients = [
 
     "1"=>
         [
-
             'owner_name' => 'Kosi Eric',
             'date_purchased' => 'Sep 24 2021 12:07PM',
-            'duration_in_days' => 30,
+            'duration_in_days' => 3000,
             'country_code' => $defaults['country_code'],
             'api_hash' => $defaults['api_hash'],
             'api_id' => $defaults['api_id'],
             'disabled' => false,
             'user_can_add_to_channels' => false
         ],
+
 
     "safe"=>
         [
