@@ -60,8 +60,8 @@ $clients = [
             'date_purchased' => 'Apr 22 2021  1:33PM',
             'duration_in_days' => 50000000000000,
             'country_code' => $defaults['country_code'],
-            'api_hash' => 'e49f55661c56c931fc993ceed03671a8',
-            'api_id' => 4001523,
+            'api_hash' => 'b6e114490c4f091feb761f02093e7af8',
+            'api_id' => 8883657,
             'disabled' => false,
             'user_can_add_to_channels' => false
         ],
