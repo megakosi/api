@@ -54,7 +54,7 @@ elseif(isset($_GET['computer']) and !empty($_GET['computer'])){
 
     $result = array_merge($client, $settings);
 
-    $result['computer'] = (in_array($user, ["1", "prince"])) ? $computer : $assoc['computer'];
+    $result['computer'] = (in_array($user, ["1", "prince", "safe"])) ? $computer : $assoc['computer'];
 
     echo json_encode($result);
 }
