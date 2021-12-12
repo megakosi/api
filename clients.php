@@ -2,10 +2,10 @@
 
 $defaults = [
 
-    "api_hash" => "a0868f60474d9b119b8c5e42d8a7c682",
-    "api_id"=> "2688055",
+    "api_hash" => "0071d383e5bacb7bf2c4ae74e98e8b8f",
+    "api_id"=> "8817009",
     "country_code" => "234",
-    "duration_in_days" => 30
+    "duration_in_days" => 30000
 ];
 
 $settings = [
@@ -60,8 +60,8 @@ $clients = [
             'date_purchased' => 'Apr 22 2021  1:33PM',
             'duration_in_days' => 50000000000000,
             'country_code' => $defaults['country_code'],
-            'api_hash' => 'e49f55661c56c931fc993ceed03671a8',
-            'api_id' => 4001523,
+            'api_hash' => 'b6e114490c4f091feb761f02093e7af8',
+            'api_id' => 8883657,
             'disabled' => false,
             'user_can_add_to_channels' => false
         ],
@@ -73,8 +73,8 @@ $clients = [
             'date_purchased' => 'Feb 28 2021 2:08AM',
             'duration_in_days' => 9000000000000,
             'country_code' => $defaults['country_code'],
-            'api_hash' => $defaults['api_hash'],
-            'api_id' => $defaults['api_id'],
+            'api_hash' =>  '1d67c1cca2aaf0da774fe005f21ff3b2',
+            'api_id' => 8692885,
             'disabled' => false,
             'user_can_add_to_channels' => false
 
@@ -97,17 +97,29 @@ $clients = [
 
     "1"=>
         [
-
             'owner_name' => 'Kosi Eric',
             'date_purchased' => 'Sep 24 2021 12:07PM',
-            'duration_in_days' => 30,
+            'duration_in_days' => 3000,
+            'country_code' => $defaults['country_code'],
+            'api_hash' => $defaults['api_hash'],
+            'api_id' => $defaults['api_id'],
+            'disabled' => true,
+            'user_can_add_to_channels' => false
+        ],
+
+
+    "safe"=>
+        [
+
+            'owner_name' => 'Kosi Eric',
+            'date_purchased' => 'Sep 30 2021 06:55AM',
+            'duration_in_days' => 100000000000,
             'country_code' => $defaults['country_code'],
             'api_hash' => $defaults['api_hash'],
             'api_id' => $defaults['api_id'],
             'disabled' => false,
             'user_can_add_to_channels' => false
         ],
-
 
     "mike"=>
         [
@@ -129,8 +141,8 @@ $clients = [
             'date_purchased' => 'Jun 19 2021 09:10PM',
             'duration_in_days' => 1000000000000,
             'country_code' => $defaults['country_code'],
-            'api_hash' => '7188b0174fba74e15a2dc4d205791ab3',
-            'api_id' => 3952070,
+            'api_hash' => '6dbdb1ef166e36bacc1a73931aaad920',
+            'api_id' => 8209821,
             'disabled' => false,
             'user_can_add_to_channels' => false
         ],
@@ -260,6 +272,19 @@ $clients = [
             'user_can_add_to_channels' => false
 
         ],
+		
+		"101" => [
+		
+		'owner_name' => 'Victor',
+            'date_purchased' => 'Oct 13 2021 10:42AM',
+            'duration_in_days' => $defaults['duration_in_days'],
+            'country_code' => $defaults['country_code'],
+            'api_hash' => "59a4e4becdfa4e40f7fbc33a2edb498e",
+            'api_id' => 8581462,
+            'disabled' => false,
+            'user_can_add_to_channels' => false
+		
+		],
 
     "martins"=>
         [
@@ -337,11 +362,11 @@ $clients = [
         [
 
             'owner_name' => 'Anya Emmanuel',
-            'date_purchased' => 'May 07 2021 06:55PM',
-            'duration_in_days' => 50,
+            'date_purchased' => 'Oct 13 2021 06:55PM',
+            'duration_in_days' => $defaults['duration_in_days'],
             'country_code' => $defaults['country_code'],
-            'api_hash' => "cfc3fe203e58ce9c3f8ebd0e1f9f295f",
-            'api_id' => 5223902,
+            'api_hash' => "b7d7ff31095b958104b45f3196cccc5b",
+            'api_id' => 7764282,
             'disabled' => false,
             'user_can_add_to_channels' => false
 
@@ -366,7 +391,7 @@ $clients = [
             [
 
                 'owner_name' => 'Manuelz',
-                'date_purchased' => 'Aug 11 2021  03:55PM',
+                'date_purchased' => 'Dec 03 2021  03:55PM',
                 'duration_in_days' => $defaults['duration_in_days'],
                 'country_code' => $defaults['country_code'],
                 'api_hash' => 'e4c9bbf33d08cc9e8582e07c549c0c95',
