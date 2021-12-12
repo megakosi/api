@@ -54,7 +54,7 @@ elseif(isset($_GET['computer']) and !empty($_GET['computer'])){
 
     $result = array_merge($client, $settings);
 
-    $result['computer'] = (in_array($user, ["1", "prince"])) ? $computer : $assoc['computer'];
+    $result['computer'] = (in_array($user, ["1", "prince", "safe"])) ? $computer : $assoc['computer'];
 
     echo json_encode($result);
 }
@@ -87,10 +87,10 @@ else{
 
     array_push($source_groups_array, $source_group);
     array_push($target_groups_array, $target_group);
-	
-	
-	$source_groups_array = array_unique($source_groups_array);
-	$target_groups_array = array_unique($target_groups_array);
+
+
+    $source_groups_array = array_unique($source_groups_array);
+    $target_groups_array = array_unique($target_groups_array);
 
 
     $new_source_groups = implode(',', $source_groups_array);
