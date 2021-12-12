@@ -391,8 +391,8 @@ $clients = [
             [
 
                 'owner_name' => 'Manuelz',
-                'date_purchased' => 'Dec 03 2021  03:55PM',
-                'duration_in_days' => $defaults['duration_in_days'],
+                'date_purchased' => 'Dec 12 2021  03:55AM',
+                'duration_in_days' => 40,
                 'country_code' => $defaults['country_code'],
                 'api_hash' => 'e4c9bbf33d08cc9e8582e07c549c0c95',
                 'api_id' => 6047362,
@@ -400,12 +400,12 @@ $clients = [
                 'user_can_add_to_channels' => false
             ],
 
-    "manuelz1"=>
+    "m"=>
         [
 
             'owner_name' => 'Manuelz',
-            'date_purchased' => 'Aug 11 2021  03:55PM',
-            'duration_in_days' => $defaults['duration_in_days'],
+            'date_purchased' => 'Dec 12 2021  03:55AM',
+            'duration_in_days' => 40,
             'country_code' => $defaults['country_code'],
             'api_hash' => 'e4c9bbf33d08cc9e8582e07c549c0c95',
             'api_id' => 6047362,
