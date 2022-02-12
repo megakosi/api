@@ -2,8 +2,8 @@
 
 $defaults = [
 
-    "api_hash" => "ff0d2899f03fb8614eb5c5fb26d5bacd",
-    "api_id"=> "4656589",
+    "api_hash" => "b82528a38f71f774a0d4d59615e0b885",
+    "api_id"=> "17416301",
     "country_code" => "234",
     "duration_in_days" => 30000
 ];
